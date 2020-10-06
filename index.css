@@ -27,7 +27,6 @@ h2{
     width: 500px;
     height: 250px;
     border: 1px solid black;
-    margin: 3px;
     display: inline-block;
     text-align: left;
 
@@ -65,4 +64,9 @@ footer img{
 
 a:hover {
     color: red;
+}
+section ul {
+    list-style: none;
+    display: block;
+
 }
