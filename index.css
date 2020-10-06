@@ -1,17 +1,68 @@
-body{
-    background-color: #add8e6;
+body {
+    background-color: beige;
 }
 h1{
+    border: 1px solid black;
+    box-shadow: 6px 6px 0px black;
+    color: blue;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
     text-align: center;
     font-style: italic;
     font-size: 70px;
+    background-color: yellow;
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+h2{
+    text-decoration: underline;
+    color: blueviolet;
 }
+
+
+
+
+
+* div {
+    
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 3px;
+    display: inline-block;
+    text-align: left;
+
+}
+
+
+.motive{
+width: auto;
+height: auto;
+display: flex;
+justify-content: space-around;
+}
+
+#experience {
+    display: flex;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    border: 1px solid white;
+}
+
+ul:hover {
+    color: blue;
+}
+
 footer img{
     text-align: left;
+    width: 40px;
+    height: 40px;
+}
+
+a:hover {
+    color: red;
 }
